@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GAZU — Fashion that moves with you</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <nav class="nav-left"><a href="#women">Women</a><a href="#kids">Kids</a><a href="#beauty">Beauty</a></nav>
+  <a class="logo" href="#">GAZU</a>
+  <nav class="nav-right">
+    <a href="#">Search</a><a href="#">Login</a><a href="#">Wishlist</a>
+    <a href="#">Cart (<span id="cart-count">0</span>)</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <p class="tagline">Fashion<br>that moves<br>with you.</p>
+  <h1 class="hero-word" aria-label="GAZU">GAZU</h1>
+  <div class="hero-photo ph"><img src="images/hero.png" alt="" onerror="this.remove()"></div>
+  <div class="hero-cta">
+    <a class="btn" href="#new">Shop now</a>
+    <a class="link" href="#new">Explore new in</a>
+  </div>
+  <p class="collection">New<br>Collection<br>2024</p>
+</section>
+
+<section class="cats">
+  <a class="cat" id="men" href="#"><div class="thumb ph"><img src="images/men.jpg" alt="" onerror="this.remove()"></div>
+    <div><h3>Men</h3><p>Elevated everyday essentials.</p><span>Shop men →</span></div></a>
+  <a class="cat" id="women" href="#"><div class="thumb ph"><img src="images/women.jpg" alt="" onerror="this.remove()"></div>
+    <div><h3>Women</h3><p>Effortless style for every you.</p><span>Shop women →</span></div></a>
+  <a class="cat" id="kids" href="#"><div class="thumb ph"><img src="images/kids.jpg" alt="" onerror="this.remove()"></div>
+    <div><h3>Kids</h3><p>Comfort meets cool everyday.</p><span>Shop kids →</span></div></a>
+</section>
+
+<section class="season" id="new">
+  <div class="season-text">
+    <p class="small">New season</p>
+    <h2>New<br>Vibes</h2>
+    <p>Discover everything<br>new and now.</p>
+    <a class="btn" href="#best">Explore collection</a>
+  </div>
+  <div class="season-photo ph"><img src="images/season.jpg" alt="" onerror="this.remove()"></div>
+</section>
+
+<section class="perks">
+  <div><b>Fast delivery</b><span>Quick &amp; safe delivery</span></div>
+  <div><b>Easy returns</b><span>Within 15 days</span></div>
+  <div><b>Quality assured</b><span>Best fashion, best quality</span></div>
+  <div><b>Secure payment</b><span>100% secure checkout</span></div>
+</section>
+
+<section class="best" id="best">
+  <div class="best-head"><h2>Best of GAZU</h2><a class="link" href="#">View all</a></div>
+  <div class="grid" id="grid"></div>
+</section>
+
+<footer class="foot">© 2024 GAZU. All rights reserved.</footer>
+<script src="script.js"></script>
+</body>
+</html>
